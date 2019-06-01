@@ -1,0 +1,27 @@
+@font-face{
+  font-family: 'MyFont';
+  src: url("FZゴンタかな.otf");
+}
+*{
+  background-color:#F5F5F5;
+}
+
+h1.title {
+  font-family: MyFont;
+  text-align: center;
+  font-size: 108px;
+  margin-bottom: 0px;
+  /* color: red; */
+}
+
+p.title {
+  text-align:right;
+  font-family:Krungthep;
+}
+
+hr {
+height:0px;
+  border-radius: 2px;
+  border: 2px solid hsl(0, 0%, 60%);
+  width: 80%;
+}
