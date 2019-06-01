@@ -3,25 +3,32 @@
   src: url("FZゴンタかな.otf");
 }
 *{
-  background-color:#F5F5F5;
+  background-color:#c5c5c5;
 }
 
+div.title{
+  width: 760px;
+  margin: auto;
+}
 h1.title {
   font-family: MyFont;
   text-align: center;
   font-size: 108px;
   margin-bottom: 0px;
-  /* color: red; */
+  color: red;
 }
 
 p.title {
   text-align:right;
   font-family:Krungthep;
+  font-size:28px;
+  margin: 0 ;
 }
 
 hr {
 height:0px;
   border-radius: 2px;
-  border: 2px solid hsl(0, 0%, 60%);
+  border: 2px solid hsl(0, 5%, 12%);
   width: 80%;
+  margin: auto;
 }
