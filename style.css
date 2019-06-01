@@ -3,7 +3,7 @@
   src: url("FZゴンタかな.otf");
 }
 *{
-  background-color:#c5c5c5;
+  background-color:#F5F5F5;
 }
 
 div.title{
@@ -15,7 +15,7 @@ h1.title {
   text-align: center;
   font-size: 108px;
   margin-bottom: 0px;
-  color: red;
+  color: #E80100;
 }
 
 p.title {
@@ -31,4 +31,8 @@ height:0px;
   border: 2px solid hsl(0, 5%, 12%);
   width: 80%;
   margin: auto;
+}
+
+.menu{
+  list-style: none;
 }
