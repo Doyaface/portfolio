@@ -1,16 +1,28 @@
-@font-face{
+@charset "UTF-8";
+@font-face {
   font-family: 'MyFont';
-  src: url("FZゴンタかな.otf");
-}
-*{
-  background-color:#F5F5F5;
+  src: url("/font/FZゴンタかな.otf");
 }
 
-div.title{
+@font-face {
+  font-family: 'ListFont';
+  src: url("/font/GN-KillGothic-U-KanaNB.ttf");
+}
+
+* {
+  background-color: #F5F5F5;
+}
+
+.container {
+  margin: 0 10%;
+}
+
+.title {
   width: 760px;
   margin: auto;
 }
-h1.title {
+
+.title h1 {
   font-family: MyFont;
   text-align: center;
   font-size: 108px;
@@ -18,21 +30,30 @@ h1.title {
   color: #E80100;
 }
 
-p.title {
-  text-align:right;
-  font-family:Krungthep;
-  font-size:28px;
-  margin: 0 ;
+.title p {
+  text-align: right;
+  font-family: Krungthep;
+  font-size: 28px;
+  margin: 0;
 }
 
 hr {
-height:0px;
+  height: 0px;
   border-radius: 2px;
-  border: 2px solid hsl(0, 5%, 12%);
+  border: 2px solid #201d1d;
   width: 80%;
   margin: auto;
 }
 
-.menu{
-  list-style: none;
+.menu {
+  margin-left: 150px;
 }
+
+.menu-content {
+  list-style: none;
+  font-family: ListFont;
+  font-size: 60px;
+  display: inline;
+  margin: 0 40px 0  40px;
+}
+/*# sourceMappingURL=style.css.map */
